@@ -1,2 +1,2 @@
 # Portfolio
-This is an equivalent display of past or most recent algorithms created and analytics performed.
+This contains an equivalent of algorithms created and analytics performed.
