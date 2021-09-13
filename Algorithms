@@ -1,0 +1,65 @@
+# Now we create a python program, which will be put into an exxercise app
+# It will allow its users measure the amount of distance they have covered
+# Using what we have just revised previously This program
+# We create a program to convert kilometeres to miles.
+# Ask the user for a number in kilometers.
+# 1 mile = 1.609344 Km.
+# Convert it to miles.
+# print the result.
+
+Kilometers = float( input( " Please enter the number of kilometers: "))
+Miles = (Kilometers / 1.609344)
+print (Kilometers, " Km = ", round(Miles, 2), "miles")
+
+# Data types explored
+myString = " Some text"
+type(mystring)
+# We can use braces to find the index of a string.
+myString[0]
+
+myString[-1]
+
+myString[-2]
+
+myString[-0]
+# To find the lenght we use the len function and brackets.
+len(myString)
+myString[len(myString)-1]
+# Data index slicing
+myString = "PT1000098984"
+# this is useful in analysing data
+# We use slicing to obtain speific indexes, like the first two numbers, etc.
+myString[0:2]
+# This time, we need to obtain the lasst two indexes
+myString = "1000098984PT"
+myString[-2:]
+myString[-5:]
+myString[:3]
+
+# Strings
+# To concatenate a string with a number, we need to convert the number to a string.
+# Using te string function, str().
+"user" + str(123)
+
+# 1. Create a program that asks a user for his first name,
+# middle name and last name
+# Then print, "Your initials are ___".
+# 2. A company has a product with a lot number, "037-00901-00027".
+# 037 represents the country code.
+# 00901 is the product code.
+# 00027 is the batch number.
+# Create a program to print; Counrty code:, Product code:
+# and Batch Number: ?.
+
+first_name = str(input("What is your first name?: "))
+middle_name = str(input("What is your middle name?: "))
+last_name = str(input("What is your last name?: "))
+initials = first_name[0]+ "." + middle_name[0] + "."+ last_name[0] + "."
+print("Your initails are", initials)
+
+ProductID = "037-00901-00027"
+CountryCode = ProductID[0:3]
+ProductCode = ProductID[4:9]
+BatchNumber = ProductID[10:15]
+print(CountryCode + "-"+ ProductCode +"-"+ BatchNumber)
+
