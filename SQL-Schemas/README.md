@@ -33,14 +33,14 @@ This is very useful when setting up a relational database table for a business. 
 ### QUERIES
 A few queries that show he created tables with utilizing the schema and sample datasets.
 ### EMPLOYEE TABLE
-![Image of Query](https://octodex.github.com/C:\Users\samue\OneDrive\Pictures\Screenshots\QUERY ALL EMPLOYEE TABLE.png)
+![Image of Query](C:\Users\samue\OneDrive\Pictures\Screenshots\QUERY ALL EMPLOYEE TABLE.png)
 
 ### CLIENT TABLE
-![Image of Query](https://octodex.github.com/C:\Users\samue\OneDrive\Pictures\Screenshots\QUERY ALL CLIENT TABLE.png)
+![Image of Query](C:\Users\samue\OneDrive\Pictures\Screenshots\QUERY ALL CLIENT TABLE.png)
 
 ### BRANCH TABLE
-![Image of Query](https://octodex.github.com/C:\Users\samue\OneDrive\Pictures\Screenshots\QUERY ALL BRANCH TABLE.png)
+![Image of Query](C:\Users\samue\OneDrive\Pictures\Screenshots\QUERY ALL BRANCH TABLE.png)
 
 ### BRANCH SUPPLIER TABLE
-![Image of Query](https://octodex.github.com/"C:\Users\samue\OneDrive\Pictures\Screenshots\QUERY ALL BRANCH_SUPPLIER TABLE.png")
+![Image of Query](C:\Users\samue\OneDrive\Pictures\Screenshots\QUERY ALL BRANCH_SUPPLIER TABLE.png)
 
