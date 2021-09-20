@@ -17,8 +17,7 @@ The aim of this, is o create tables which clearly store data, without consuming 
 
 ### GOALS
 
-When a table schema is correctly defined in a relational database, it eradicates the possibility of data loss.
-This is very useful when setting up a relational database table for a business. This improves the accuracy of data stored in the realtional database.
+When a table schema is correctly defined in a relational database, it eradicates the possibility of data loss. This is very useful when setting up a relational database table for a business. This improves the accuracy to which data can be retieved, stored and used to generate reports directly from the relational database.
 
 ### BENEFITS
 
@@ -33,7 +32,8 @@ This is very useful when setting up a relational database table for a business. 
 ### QUERIES
 A few queries that show he created tables with utilizing the schema and sample datasets.
 ### EMPLOYEE TABLE
-![Image of Query](C:\Users\samue\OneDrive\Pictures\Screenshots\QUERY ALL EMPLOYEE TABLE.png)
+![Image of EMPLOYEE](https://drive.google.com/file/d/11kQFKd67-yHN9A6FXXUW2PegY9nCwtDR/view?usp=sharing)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 ### CLIENT TABLE
 ![Image of Query](C:\Users\samue\OneDrive\Pictures\Screenshots\QUERY ALL CLIENT TABLE.png)
