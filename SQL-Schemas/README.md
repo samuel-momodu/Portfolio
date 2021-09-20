@@ -39,7 +39,7 @@ A few queries that show he created tables with utilizing the schema and sample d
 ![Image of Query](C:\Users\samue\OneDrive\Pictures\Screenshots\QUERY ALL CLIENT TABLE.png)
 
 ### BRANCH TABLE
-![Image of Query](C:\Users\samue\OneDrive\Pictures\Screenshots\QUERY ALL BRANCH TABLE.png)
+![Image of BRANCH](https://github.com/samuel-momodu/Portfolio/blob/main/SQL-Schemas/QUERY%20ALL%20BRANCH%20TABLE.png)
 
 ### BRANCH SUPPLIER TABLE
 ![Image of Query](C:\Users\samue\OneDrive\Pictures\Screenshots\QUERY ALL BRANCH_SUPPLIER TABLE.png)
