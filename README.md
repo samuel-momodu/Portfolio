@@ -9,7 +9,7 @@ These metrics sometimes account for some or all of this segments depending on th
 Find an example of such measurement below, where I defined the metrics depending on the domain. I did the analysis and created the dashborad using Tableau.
 
 ![Image of KPI](https://public.tableau.com/views/KeyPerformanceIndicators_16312928506220/KeyPerformanceIndicators?:language=en-US&:display_count=n&:origin=viz_share_link)
-
+https://public.tableau.com/views/KeyPerformanceIndicators_16312928506220/KeyPerformanceIndicators?:language=en-US&:display_count=n&:origin=viz_share_link
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 #### This portfolio is divided into folders, each folder represents a tool with which I either used to analyse, clean, store and/or transform some data.
