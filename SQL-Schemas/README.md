@@ -1,4 +1,4 @@
-# SQL SCHEMAS
+# SQL QUERIES
 
 The SQL codes above have been used to create tables in a relational database.
 
