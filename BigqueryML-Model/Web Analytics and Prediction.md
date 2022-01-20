@@ -1,5 +1,5 @@
 
-   # Web Analytics and Prospective Customer Prediction 
+   # Web Analytics Using Logistic Regression to Predict Customer Retention
 
    ## Table of Contents
 
@@ -22,17 +22,16 @@
     
    ## Introduction
    
-The goal of this analysis is to generate actionable insights on customer behavior for a firm's e-commerce web platform. 
-- To identify the top performing marketing channels 
-- To understand top performinng product category 
+The goal of this analysis project is to generate actionable insights on customer behavior for a firm's e-commerce web platform. 
+- To identify the top-performing marketing channels 
+- To understand the top performing product category 
 - To measure customer conversion rates 
 - To create a machine learning model using [logistic regression](https://en.wikipedia.org/wiki/Logistic_regression#:~:text=Logistic%20regression%20is%20a%20statistical%20model%20that%20in,logistic%20model%20%28a%20form%20of%20binary%20regression%20%29.) to make predictions on what segment of current customers are willing to make subsequent purchases from the web platform.
+
+Equipping both primary and secondary stakeholders to make informed decisions which can be used to improve marketing startegies, sales targeting efforts, user experience on the firm's web platforms and to innovate services and products, leading to achievement of business goals and increase in revenue.
    
 Data Source: This data can be accessed using google cloud or querying it directly through bigquery.
-   
-The aim of this project will be to generate insights on customer preferance and behavior, creata a logistc regersion machine learning model equiping both primary and secondary stakeholders with insights to make informed decisions which can be used to improve marketing startegies,sales targeting efforts, user experience on the firm's web platforms and to innovate services and products, leading to achievement of business goals and increase in revenue.
-   
-   
+
    ## Exploratory Data Analysis
    
 The first query gives us a sense of the number of site visits and also what site pages are most relevant to our customers.
@@ -94,9 +93,7 @@ The features selected for the algorithm is a combination of the time spent by ea
       
   ## Model Evaluationns
   
-After obtaining the results from the model, I need to ensure the results obtained are accurate, becuase business decisiosn will be made based on 
-the resulsts from the algorithm, hence the accuracy of any model is vital. To evaluate the model, I have pre-selected performance criteria for
-the model, ensuring that False Positive Rate (predict that the user will return and purchase and they don't) is lowered, and maximize the True Positive Rate (predict that the user will return and purchase and they do).
+After obtaining the results from the model, I need to ensure the results obtained are accurate, becuase business decisiosn will be made based on the resulsts from the algorithm, hence the accuracy of any model is vital. To evaluate the model, I have pre-selected performance criteria for the model, ensuring that False Positive Rate (predict that the user will return and purchase and they don't) is lowered, and maximize the True Positive Rate (predict that the user will return and purchase and they do).
 
 This relationship is visualized with a ROC (Receiver Operating Characteristic) curve, in BigQuery Machine Learning, roc_auc is simply a queryable field when evaluating your trained ML model. In these scenario I believe the model can be further optimised with additional features to improve prediction accuracy. I believe using different features present in the dataset may help the model better understand the relationship between a visitor's first session and the likelihood that they will purchase on a subsequent visit.
     
