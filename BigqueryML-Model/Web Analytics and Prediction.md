@@ -91,7 +91,7 @@ Evaluating the model helps  us to understand the accuracy of the created model.
   
 The features selected for the algorithm is a combination of the time spent by each customer on the firm's web platform, the bounce rate for each web session and the unique vistor identification number. The goal of this algorithm will be to predict which customers will make subsequent purchases from the web platform.
       
-  ## Model Evaluationns
+  ## Model Evaluations
   
 After obtaining the results from the model, I need to ensure the results obtained are accurate, becuase business decisiosn will be made based on the resulsts from the algorithm, hence the accuracy of any model is vital. To evaluate the model, I have pre-selected performance criteria for the model, ensuring that False Positive Rate (predict that the user will return and purchase and they don't) is lowered, and maximize the True Positive Rate (predict that the user will return and purchase and they do).
 
